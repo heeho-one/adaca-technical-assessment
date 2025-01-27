@@ -17,8 +17,12 @@ class TodoPage extends BasePage {
         await inputElement.sendKeys(todoName, Key.ENTER);
     }
 
+    async getTodos() {
+        return await this.driver.findElements(this.todoItems);
+    }
+
     async getTodoByName(todoName) {
-        const todos = await this.driver.findElements(this.todoItems);
+        const todos = await this.getTodos();
 
         for (const todo of todos) {
             const label = await todo.findElement(this.todoName);
