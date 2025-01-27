@@ -67,3 +67,4 @@ The framework also have a automation framework agnostic utilities located in the
 - Chrome is the only browser used in testing. The createWebDriver function accepts a browser type string argument but is not tested with other browser due to time constraints.
 - Mocha/Chai is used as the test runner and assertion library due simplicity and familiarity.
 - For the method getTodoByName, it is assumed that todos always have a unique name thus in the event that 2 todos in the list have the same title, it will always return the first one it sees.
+- There is 1 expected selenium test to fail to demonstrate taking of screenshot during failed test
