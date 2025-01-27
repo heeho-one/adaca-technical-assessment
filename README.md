@@ -5,6 +5,10 @@
 Prerequisites:
 - NodeJS v22 is installed in your local machine
 
+Websites Used:
+- Login Tests: https://practicetestautomation.com/practice-test-login/
+- Todo Tests: https://todomvc.com/examples/react/dist/
+
 Installation:
 1. Clone the repository to your local machine
 2. Install dependencies
