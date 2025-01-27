@@ -1,0 +1,6 @@
+{
+    "spec": "tests/selenium/**/*.spec.js",
+    "require": ["tests/selenium/hooks.js"],
+    "timeout": 30000,
+    "color": true
+}
